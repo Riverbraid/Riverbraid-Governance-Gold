@@ -1,19 +1,47 @@
-﻿# Riverbraid-Governance-Gold
-## Riverbraid Unified Control Architecture v2.1
+# Riverbraid-Governance-Gold
 
-### Cognitive Signature
-This repository operates under the **Fail-Closed** discipline and **Mechanical Honesty**. It is a sovereign, closed-loop reference within the Riverbraid Epoch.
+**Lifecycle category:** registry listed governance surface
+**Normative source:** Riverbraid-Core
+**Claim boundary:** Declared Conditions Only
 
-### Formal Specification
-*   **Coupling Test**: Passed. Verified against the Unified Control & Relational Integrity (UCRI) framework.
-*   **Scale Separation Gate**: Active. Enforces protocol binding to prevent cross-domain replay.
-*   **Linear vs Nonlinear**: Tagged for structural governance detection.
-*   **Stationary State Invariant**: Set at Merkle Root de2062.
+## Role in Riverbraid
 
-### Usage & Integrity
-All commands and interactions within this stack prioritize **coherence over speed**.
-Spatial integrity is maintained via filesystem hash recomputation.
+Riverbraid-Governance-Gold represents governance-oriented rule, decision, and authority boundary work within Riverbraid.
+
+This repository is a bounded governance surface. It does not redefine Riverbraid protocol semantics, registry truth, release state, or security posture.
+
+## Public verification boundary
+
+This repository may be referenced by Riverbraid documentation and registry surfaces, but any current verification claim must be checked against the relevant Evaluation Kit registry entry, workflow evidence, and repository files.
+
+Repository workflow checks are bounded scaffold or verifier checks unless the evidence surface states otherwise.
+
+Primary public entry point:
+https://github.com/Riverbraid/Riverbraid-Evaluation-Kit
+
+Documentation hub:
+https://github.com/Riverbraid/Riverbraid-Documentation
+
+## Evidence boundary
+
+This repository does not claim certification, legal approval, production readiness, absolute security, external audit, complete AI safety, adoption, registry freshness, or absence of defects.
+
+## Authority boundary
+
+Riverbraid-Core remains the normative source for protocol semantics. This repository does not override Core, the Evaluation Kit registry, workflow evidence, release state, or external review.
+
+## Verification
+
+```bash
+node audit_final.js
+```
+
+This command currently represents a bounded scaffold check unless stronger evidence is explicitly provided.
+
+## License
+
+MIT.
 
 ---
-*Last Synchronized: 2026-04-30 01:49*
-*Status: integration_rest*
+
+**Navigation:** [Evaluation Kit](https://github.com/Riverbraid/Riverbraid-Evaluation-Kit) | [Documentation](https://github.com/Riverbraid/Riverbraid-Documentation) | [System Map](https://github.com/Riverbraid/Riverbraid-Documentation)
